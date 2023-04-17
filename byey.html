@@ -10,7 +10,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Countdown</title>
+  <title>Bday Countdown</title>
 
 </head>
 
@@ -21,7 +21,7 @@
 <!-- Display the countdown timer in an element -->
 
 <p class="w big" id="demo"> </p> 
-
+<p class="w2" id="demo2"> </p> 
 <script>
 
 // Set the date we're counting down to
@@ -62,9 +62,10 @@ var x = setInterval(function() {
 
     clearInterval(x);
 
-     window.location.replace("http://actwu.github.io/23/23.html");;
-
-  }
+     document.getElementById("demo").innerHTML = "Its my bday now yey😊"
+ document.getElementById("demo2").innerHTML = "Thx For Countdown W/Me"
+ 
+ }
 
 }, 1000);
 
